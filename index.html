@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Bioakkens Julefrokost</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link href="css/snow-style.css" rel="stylesheet">
+    <link href="css/christmas-lights.css" rel="stylesheet">
+
+    <!-- JS kode til at afspille audio element -->
+    <script type="text/javascript">
+      document.addEventListener('keydown', keyPressed);
+      function keyPressed(e) {
+        if(e.code == "Enter") {
+          //console.log("Enter Pressed");
+          document.getElementById('audio').play();
+        }
+      }
+    </script>
+
+    <!-- julelys -->
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function(){
+        let v = window.innerHeight / 60 + 2,
+          h = window.innerWidth / 60 + 2,
+          data = {
+            'top': h,
+            'right': v,
+            'bottom': h,
+            'left': v
+          },
+          ul = c = null;
+      for (let position in data) {
+        c = data[position];
+        ul = document.createElement('ul');
+        ul.className = 'christmas-lights';
+        ul.dataset.position = position;
+        for (let i = 0; i <= c; i++) {
+          ul.append(document.createElement('li'));
+        }
+        document.body.append(ul);
+      }
+    });
+    </script>
+
+    <!-- Tilføj et drys julesne -->
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function(){
+        var script = document.createElement('script');
+        script.src = 'js/particles.min.js';
+        script.onload = function(){
+          particlesJS("snow", {
+            "particles": {
+                "number": {
+                  "value": 75,
+                  "density": {
+                  "enable": true,
+                  "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "opacity": {
+                "value": 0.7,
+                "random": false,
+                "anim": {
+                    "enable": false
+                }
+            },
+            "size": {
+                "value": 7,
+                "random": true,
+                "anim": {
+                    "enable": false
+                }
+            },
+            "line_linked": {
+                "enable": false
+            },
+            "move": {
+                "enable": true,
+                "speed": 2,
+                "direction": "bottom",
+                "random": true,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": true,
+                    "rotateX": 300,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": false
+                },
+                "onclick": {
+                    "enable": false
+                },
+                "resize": false
+            }
+        },
+        "retina_detect": true
+        });
+    }
+    document.head.append(script);
+    });
+    </script>
+
+  </head>
+  <body id="snow">
+    <div class="contailer-fluid bg-danger" id="snow">
+      <div class="row">
+        <div class="col-6">
+          <div class="row mt-5 ms-5">
+            <h1>Valg af formand</h1>
+            <blockquote class="blockquote">
+              <ul>
+                <li>Valg af formand sker ved den årlige julefrokost.</li>
+                <li>Valget skal ske skriftligt og anonymt med øje for, at det skal være den bedst egnede – Den afgående formand kan derfor også genvælges.</li>
+                <li>Hver deltager har to stemmer, som vedkommende må bruge valgfrit til valg af formand.</li>
+                <li>Man må bruge sine to stemmer på en til to personer – inklusive sig selv, hvis man mener, man er den bedste kandidat.</li>
+                <li>Man kan ikke vælge en formand, der ikke deltager i julefrokosten. Ligesom vælgere der ikke deltager, ikke har stemmeret.</li>
+                <li>Den afgående formand har én ekstra stemme (Formandsstemmen), som skal bruges til at nominere en ny formand, der i årets løb har gjort sig fortjent til Formandsstemmen. Formanden kan ikke nominere sig selv. Formandsstemmen offentliggøres først, når alle har stemt. Formandsstemmen læses op som den første.</li>
+                <li>Den person, der har fået Formandsstemmen er sekretær ved valget.</li>
+                <li>I tilfælde af stemmelighed er det den person med Formandsstemmen der vinder.</li>
+                <li>I tilfælde af stemmelighed, hvor ingen af kandidaterne har formandsstemmen, stemmes der om. Hver vælger får to nye stemmesedler. Er der stadig stemmelighed efter omvalg, vælger den afgående formand hvilken kandidat der bliver den nye formand.</li>
+                <li>Når der er valgt en formand drikker den afgående formand en øl af pokalen, overdrager den til den nye formand, som drikker en øl af pokalen.</li>
+                <li>Efter overdragelsen drikkes Formandens Skål med alle vælgerne. Formanden skåler og drikker en ny øl ad pokalen</li>
+              </ul>
+              <h3>Formandens pligt…</h3>
+              <ul>
+                <li>At være tovholder og forgangsmand på sociale aktiviteter i Bioakken.</li>
+                <li>At holde Formandens Tale ved den årlige julefrokost.</li>
+                <li>At udpege en ny kandidat og benytte Formandsstemmen ved næste valg.</li>
+                <li>At få skrevet årstal og eget navn i pokalen op til næste valg.</li>
+              </ul>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <!-- sæt baggrundsbillede -->
+          <img class="mx-auto d-block bg-image mt-5" src="naughty-santa-clipart.png" style="height: 90vh;"/>
+        </div>
+
+        <div class="col-2">
+          <!-- opret audio element -->
+          <audio id="audio" controls style="display:none">
+            <source src="jingle.mp3" type="audio/mpeg">Ser du denne besked, så er det fordi din browser ikke understøtter audio elementet
+          </audio>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+- Valg af formand sker ved den årlige julefrokost.
+- Valget skal ske skriftligt og anonymt med øje for, at det skal være den bedst egnede – Den afgående formand kan derfor også genvælges.
+- Hver deltager har to stemmer, som vedkommende må bruge valgfrit til valg af formand.
+- Man må bruge sine to stemmer på en til to personer – inklusive sig selv, hvis man mener, man er den bedste kandidat.
+- Man kan ikke vælge en formand, der ikke deltager i julefrokosten. Ligesom vælgere der ikke deltager, ikke har stemmeret.
+- Den afgående formand har én ekstra stemme (Formandsstemmen), som skal bruges til at nominere en ny formand, der i årets løb har gjort sig fortjent til Formandsstemmen. Formanden kan ikke nominere sig selv. Formandsstemmen offentliggøres først, når alle har stemt. Formandsstemmen læses op som den første.
+- Den person, der har fået Formandsstemmen er sekretær ved valget.
+- I tilfælde af stemmelighed er det den person med Formandsstemmen der vinder.
+- I tilfælde af stemmelighed, hvor ingen af kandidaterne har formandsstemmen, stemmes der om.  Hver vælger får to nye stemmesedler. Er der stadig stemmelighed efter omvalg, vælger den afgående formand hvem af kandidaterne der bliver den nye formand.
+- Når der er valgt en formand drikker den afgående formand en øl af pokalen, overdrager den til den nye formand, som drikker en øl af pokalen.
+- Efter overdragelsen drikkes Formandens Skål med alle vælgerne. Formanden skåler og drikker en ny øl ad pokalen
+### Formandens pligt… ###
+- At være tovholder og forgangsmand på sociale aktiviteter i Bioakken.
+- At holde Formandens Tale ved den årlige julefrokost.
+- At udpege en ny kandidat og benytte Formandsstemmen ved næste valg.
+- At få skrevet årstal og eget navn i pokalen op til næste valg.
