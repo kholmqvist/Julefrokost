@@ -8,7 +8,7 @@
 - I tilfælde af stemmelighed er det den person med Formandsstemmen der vinder.
 - I tilfælde af stemmelighed, hvor ingen af kandidaterne har formandsstemmen, stemmes der om.  Hver vælger får to nye stemmesedler. Er der stadig stemmelighed efter omvalg, vælger den afgående formand hvem af kandidaterne der bliver den nye formand.
 - Når der er valgt en formand drikker den afgående formand en øl af pokalen, overdrager den til den nye formand, som drikker en øl af pokalen.
-- Efter overdragelsen drikkes Formandens Skål med alle vælgerne. Formanden skåler og drikker en ny øl ad pokalen
+- Efter overdragelsen drikkes Formandens Skål med alle vælgerne. Formanden skåler og drikker en ny øl af pokalen
 ### Formandens pligt… ###
 - At være tovholder og forgangsmand på sociale aktiviteter i Bioakken.
 - At holde Formandens Tale ved den årlige julefrokost.
